@@ -13,7 +13,8 @@ body {
   width: 600px;
   height: 400px;
   display: flex;
-  justify-content: center;
+align-items: center;
+  flex-direction: column;
 }
 
 .ricerca {
@@ -57,4 +58,34 @@ body {
 
 #pulsante-ricerca:hover{
     background-color: rgb(255, 211, 128);
+}
+
+.info-meteo{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.nome-citta{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+.gradi{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+
+/*aggiustare colonne e righe vento e umidita*/
+.info-generali{
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+.dati-vento-umidita{
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
 }
